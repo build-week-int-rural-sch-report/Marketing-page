@@ -208,31 +208,82 @@ header .logo {
 
 nav img {
     width: 5%;
+    height: 15%;
 }
 
-x
+.signup-btn {
+    background: #4b1eac;
+    color:white;
+    border: none;
+    border-radius: 15%;
+    padding: 2%;
+    cursor: pointer;
+}
 
 /* end header */
 .main {
     display: flex;
     flex-direction: row;
-
+    justify-content: space-between;
+    margin: 5%;
 }
 
+
+/* left main */
 .left-main {
     color: white;
     max-width: 45%;
-    border: solid 1px black;
 }
 
+
+/* right main */
 .right-main {
     background: #eff0f2;
-    max-width: 45%;
-    border: solid 1px red;
+    max-width: 100%;
 }
 
+.inner-form{
+    text-align: center;
+}
+
+.inner-form input {
+    margin: 1%;
+}
+
+.name-input {
+    width: 40%;
+}
+
+.email-input {
+    width: 70%;
+}
+
+.password-input {
+    width: 70%;
+}
+
+.inner-form p {
+    margin: 2%;
+}
+
+.form-btns {
+    text-align: center;
+    margin: 3%;
+
+}
+
+.form-btns button {
+    margin: 1%;
+    padding: 3%;
+    width: 30%;
+    cursor: pointer;
+}
+
+/* footer */
 footer, footer a{
     color: white;
     text-decoration: none;
+    text-align: center;
+    margin: 3%;
 }
 
