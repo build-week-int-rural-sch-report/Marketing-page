@@ -213,26 +213,3 @@ nav img {
 x
 
 /* end header */
-.main {
-    display: flex;
-    flex-direction: row;
-
-}
-
-.left-main {
-    color: white;
-    max-width: 45%;
-    border: solid 1px black;
-}
-
-.right-main {
-    background: #eff0f2;
-    max-width: 45%;
-    border: solid 1px red;
-}
-
-footer, footer a{
-    color: white;
-    text-decoration: none;
-}
-
