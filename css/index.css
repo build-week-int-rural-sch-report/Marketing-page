@@ -1,0 +1,289 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin        : 0;
+    padding       : 0;
+    border        : 0;
+    font-size     : 100%;
+    font          : inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing : 0;
+}
+
+/* Set every element's box-sizing to border-box */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height     : 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family   : 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom : 15px;
+}
+
+/* end of reset */
+
+
+/* desktop style */
+/* Index Page */
+/* header */
+.container {
+    background: #117e9d;
+    margin: 1%;
+}
+
+header {
+    display: flex;
+}
+
+header nav {
+    width: 100%;
+    margin-top: 50px;
+}
+
+header nav a {
+    margin-right: 15px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header nav a:first-child {
+    margin-left: 0;
+}
+
+header nav a:last-child {
+    margin-right: 0;
+}
+
+header .logo {
+    margin: 20px;
+    width: 50%;
+    
+}
+
+.nav-two {
+    margin-right: 2%;
+}
+
+nav img {
+    width: 5%;
+    height: 15%;
+}
+
+.signup-btn {
+    background: #4b1eac;
+    color:white;
+    border: none;
+    border-radius: 15%;
+    padding: 2%;
+    cursor: pointer;
+}
+
+/* end header */
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+
+/* left main */
+.left-main {
+    color: white;
+    max-width: 45%;
+}
+
+
+/* right main */
+.right-main {
+    background: #eff0f2;
+    max-width: 100%;
+}
+
+.inner-form{
+    text-align: center;
+}
+
+.inner-form input {
+    margin: 1%;
+}
+
+.name-input {
+    width: 40%;
+}
+
+.email-input {
+    width: 70%;
+}
+
+.password-input {
+    width: 70%;
+}
+
+.inner-form p {
+    margin: 2%;
+}
+
+.form-btns {
+    text-align: center;
+    margin: 3%;
+
+}
+
+.form-btns button {
+    margin: 1%;
+    padding: 3%;
+    width: 30%;
+    cursor: pointer;
+}
+
+/* footer */
+footer, footer a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 3%;
+}
+
