@@ -4,75 +4,74 @@
 <head>
     <!-- index.html -->
     <title>International Rural School Report</title>
+    <link rel="stylesheet" href="css/index.css">
     <meta charset="UTF-8" />
 </head>
 
 <body>
-    <nav>
-        <img src="images/logo.png">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-
-            <li><img src="images/phone.png"></li>
-            <li>
-                <p>(586) 228-0349</p>
-            </li>
-            <li>
-                <p>hello@paint.com</p>
-            </li>
-            <li><img src="images/mail.png"></li>
-            <li><a href="#">Log In</a></li>
-            <li><a href="#">Sign Up</a></li>
-        </ul>
-    </nav>
+    <div class="container">
+        <nav>
+            <img class="logo" src="images/logo.png">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <ul>
+                <li><img class="icon" src="images/phone.png"></li>
+                <li>(586) 228-0349</li>
+                <li><img class="icon" src="images/mail.png"></li>
+                <li> hello@paint.com</li>
+                <li><a href="#">Log In</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
 
 
 
-    <div>
-        <section>
-            <h1>Effortless School Supply Management.</h1>
+        <div class="main">
+            <section class="left-main">
+                <h1>Effortless School Supply Management.</h1>
 
-            <p>We do all the hard work to help you and your employees save.</p>
+                <p>We do all the hard work to help you and your employees save.</p>
 
-            <p>Administrative, Compliance, and Supply Organization.</p>
-        </section>
-    </div>
-
-
-    <form action="/action_page.php" style="border:1px solid #ccc">
-        <div class="container">
-
-            <input type="text" placeholder="First Name" name="first-name" required>
-
-
-            <input type="text" placeholder="Last Name" name="last-name" required>
-
-            <input type="email" placeholder="Email Address" name="email" required>
-
-            <input type="password" placeholder="Password" name="psw-repeat" required>
-            <input type="checkbox" checked="checked"> Remember me
-            <p>To create an account you have to agree our <a href="#">Terms & Privacy</a>.</p>
-
-            <div>
-                <button type="button" class="login-btn">Log In</button>
-                <button type="submit" class="signup-btn">Sign Up</button>
-            </div>
+                <p>Administrative, Compliance, and Supply Organization.</p>
+            </section>
         </div>
-    </form>
+
+        <div class="right-main">
+            <form action="/action_page.php" style="border:1px solid #c8d0d8">
+                <div class="container">
+
+                    <input type="text" placeholder="First Name" name="first-name" required>
+
+
+                    <input type="text" placeholder="Last Name" name="last-name" required>
+
+                    <input type="email" placeholder="Email Address" name="email" required>
+
+                    <input type="password" placeholder="Password" name="psw-repeat" required>
+                    <input type="checkbox" checked="checked"> Remember me
+                    <p>To create an account you have to agree our <a href="#">Terms & Privacy</a>.</p>
+
+                    <div>
+                        <button type="button" class="login-btn">Log In</button>
+                        <button type="submit" class="signup-btn">Sign Up</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 
 
 
     <footer>
         &copy; Paint 2019
-        <a href="#">Placeholder</a>
-        <a href="#">Placeholder</a>
-        <a href="#">Placeholder</a>
-        <a href="#">Placeholder</a>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
     </footer>
 
 
-
+    </div><!-- container end -->
 </body>
 
 </html>
