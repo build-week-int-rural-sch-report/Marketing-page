@@ -207,18 +207,19 @@ header .logo {
 }
 
 nav img {
-    width: 5%;
+    width : 5%;
     height: 15%;
 }
 
 .signup-btn {
-    background: #4b1eac;
-    color:white;
-    border: none;
+    background   : #4b1eac;
+    color        : white;
+    border       : none;
     border-radius: 10%;
-    padding: 2%;
-    cursor: pointer;
+    padding      : 2%;
+    cursor       : pointer;
 }
+
 /* end header */
 
 
@@ -228,19 +229,19 @@ nav img {
 /* main */
 h1 {
     text-align: center;
-    color: white;
+    color     : white;
 }
+
 /* end main */
 
 
 /* flex box */
 .flex-container {
-    display       : flex;
-    flex-direction: row;
+    display        : flex;
+    flex-direction : row;
     justify-content: center;
-    flex-wrap: wrap;
-    border        : solid 1px black;
-
+    flex-wrap      : wrap;
+    width          : 100%;
 }
 
 
@@ -248,25 +249,28 @@ h1 {
 /* flex items */
 
 .flex-item {
-    color: white;
-    margin    : 1%;
-    border        : solid 1px black;
+    color : white;
+    margin: 1%;
+    width : 20%;
 }
 
-
 .flex-item img {
-    max-width: 90%;
-    height: 60%;
-    border        : solid 1px black;
+    height: 70%;
+    width : 80%;
+}
+
+.flex-item p {
+    width: 100%;
 }
 
 
 
 
 /* footer */
-footer, footer a{
-    color: white;
+footer,
+footer a {
+    color          : white;
     text-decoration: none;
-    text-align: center;
-    margin: 3%;
+    text-align     : center;
+    margin         : 3%;
 }
