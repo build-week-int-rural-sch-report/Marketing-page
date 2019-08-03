@@ -163,6 +163,11 @@ h5 {
 /* desktop style */
 /* Index Page */
 /* header */
+body {
+    background: #117e9d;
+    font-size : 62.5%;
+}
+
 .container {
     background: #117e9d;
     margin    : 1%;
@@ -170,6 +175,12 @@ h5 {
 
 header {
     display: flex;
+}
+
+header .logo {
+    margin: 20px;
+    width : 50%;
+
 }
 
 header nav {
@@ -233,6 +244,7 @@ nav img {
 .left-main {
     color    : white;
     max-width: 45%;
+    font-size: 1rem;
 }
 
 
@@ -241,11 +253,13 @@ nav img {
     background: #eff0f2;
     max-width : 100%;
 
+
 }
 
 .right-main p {
     border    : none;
     text-align: center;
+    font-size : 2rem;
 }
 
 .inner-form {
@@ -293,4 +307,67 @@ footer a {
     text-decoration: none;
     text-align     : center;
     margin         : 3%;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 500px) {
+
+
+
+    header {
+        display        : flex;
+        flex-direction : column;
+        justify-content: center;
+        align-items    : center;
+        
+        width          : 100%;
+    }
+
+
+    header div {
+        align-content: center;
+        margin-left  : 30%;
+    }
+
+    header div img {
+
+        
+    }
+
+    .nav-one {
+        display       : flex;
+        flex-direction: row;
+        align-content : center;
+        margin-left   : 5%;
+        
+    }
+
+    .nav-two {
+        display       : flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items   : center;
+        
+    }
+
+
+
+
+    .main {
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+
+    }
+
+    .left-main {
+        margin    : 5%;
+        text-align: center;
+    }
+
+    .right-main {
+        margin: 5%;
+    }
+
 }

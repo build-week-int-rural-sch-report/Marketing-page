@@ -163,6 +163,11 @@ h5 {
 /* desktop style */
 /* Index Page */
 /* header */
+
+body {
+    background: #117e9d;
+}
+
 .container {
     background: #117e9d;
     margin    : 1%;
